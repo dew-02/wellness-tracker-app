@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg_gradient">
+
+    <!-- Heading -->
+    <TextView
+        android:id="@+id/txtHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOOD JOURNAL"
+        android:textColor="@android:color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Month & Year -->
+    <TextView
+        android:id="@+id/txtMonthYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="October 2025"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Calendar area takes remaining space -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="top|center_horizontal">
+
+        <!-- Weekday headers -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+
+            <TextView android:text="Sun" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textColor="@android:color/white"/>
+            <TextView android:text="Mon" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textColor="@android:color/white"/>
+            <TextView android:text="Tue" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textColor="@android:color/white"/>
+            <TextView android:text="Wed" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textColor="@android:color/white"/>
+            <TextView android:text="Thu" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textColor="@android:color/white"/>
+            <TextView android:text="Fri" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textColor="@android:color/white"/>
+            <TextView android:text="Sat" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+        <!-- Calendar Grid -->
+        <GridView
+            android:id="@+id/gridCalendar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="7"
+            android:horizontalSpacing="8dp"
+            android:verticalSpacing="8dp"
+            android:stretchMode="columnWidth"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>
