@@ -6,7 +6,9 @@ A simple, clean, and effective app to build healthy daily routines.
 This project was developed for the Mobile Application Development – Self Assignment 3 module.
 
 🌟 Overview
+
 Wellness Tracker is a Kotlin-based Android app that helps users:
+
 • Build positive daily habits
 • Track emotional well-being
 • Maintain hydration through reminders
@@ -15,27 +17,34 @@ Wellness Tracker is a Kotlin-based Android app that helps users:
 The app works offline, saves all user preferences, and runs smoothly across devices.
 
 ✨ Features
+
 🗓️ Daily Habit Tracker
+
 • Add, edit, and delete habits
 • Daily progress display
 • Habit-based reminders using:
+
        -AlarmManager
        -WorkManager
 
 😊 Mood Journal
+
 • Select emojis to record mood
 • Auto-save date and time
 • View past moods in:
+
     -List View
     -Calendar View
 
 💧 Hydration Reminder
+
 • Smart water-drinking notifications
 • Background reminders
 • Custom reminder intervals
 • Uses Android Notification System
 
 📊 Mood Trend Chart
+
 • Weekly mood visualization
 • Powered by MPAndroidChart
 • Helps users understand emotional patterns
