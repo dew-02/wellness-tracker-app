@@ -122,9 +122,12 @@ The app works offline, saves all user preferences, and runs smoothly across devi
 🔧 **Installation**
 
 git clone https://github.com/your-username/wellness-tracker.git
-Open project in Android Studio
-Let Gradle sync
-Run the app on emulator or physical device
+
+1.Open project in Android Studio
+
+2.Let Gradle sync
+
+3.Run the app on emulator or physical device
 
 
 
