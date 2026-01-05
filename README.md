@@ -31,15 +31,12 @@ The app works offline, saves all user preferences, and runs smoothly across devi
 🗓️ Daily Habit Tracker
 
 • Add, edit, and delete habits
-
-• Daily progress display
-
+• Track daily progress visually
 • Habit-based reminders using:
 
-       1.AlarmManager
-       
-       2.WorkManager
+AlarmManager
 
+WorkManager
 
 
 😊**Mood Journal**
