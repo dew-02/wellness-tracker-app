@@ -33,9 +33,9 @@ The app works offline, saves all user preferences, and runs smoothly across devi
 
 • Habit-based reminders using:
 
-       -AlarmManager
+       1.AlarmManager
        
-       -WorkManager
+       2.WorkManager
 
 😊 Mood Journal
 
@@ -45,9 +45,9 @@ The app works offline, saves all user preferences, and runs smoothly across devi
 
 • View past moods in:
 
-    -List View
+    1.List View
     
-    -Calendar View
+    2.Calendar View
 
 💧 Hydration Reminder
 
@@ -93,27 +93,19 @@ The app works offline, saves all user preferences, and runs smoothly across devi
 
 6.AlarmManager / WorkManager for background tasks
 
-🛠 Technologies Used
+ 🛠 Technologies Used
 
-Category	           Technology
-
-Language	           Kotlin
-
-IDE	                    Android Studio
-
-UI	                    XML + Material Design
-
-Local Storage	        SharedPreferences
-
-Charts	                MPAndroidChart
-
-Background Tasks	    AlarmManager, WorkManager
-
-Notifications	        Android Notification System
-
-Architecture	        Activity + Fragment
-
-Others	                Explicit & Implicit Intents
+| Category          | Technology                     |
+|------------------|--------------------------------|
+| Language          | Kotlin                         |
+| IDE               | Android Studio                 |
+| UI                | XML + Material Design          |
+| Local Storage     | SharedPreferences              |
+| Charts            | MPAndroidChart                 |
+| Background Tasks  | AlarmManager, WorkManager      |
+| Notifications     | Android Notification System    |
+| Architecture      | Activity + Fragment            |
+| Others            | Explicit & Implicit Intents    |
 
 
 🔧 Installation
