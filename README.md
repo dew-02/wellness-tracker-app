@@ -3,9 +3,11 @@
 
 A simple, clean, and effective app to build healthy daily routines.
 
+
 🎓**Academic Notice**
 
 This project was developed for the Mobile Application Development – Self Assignment 3 module.
+
 
 🌟**Overview**
 
@@ -23,6 +25,7 @@ Wellness Tracker is a Kotlin-based Android app that helps users:
 
 The app works offline, saves all user preferences, and runs smoothly across devices.
 
+
 ✨**Features**
 
 🗓️ Daily Habit Tracker
@@ -37,7 +40,9 @@ The app works offline, saves all user preferences, and runs smoothly across devi
        
        2.WorkManager
 
-😊** Mood Journal**
+
+
+😊**Mood Journal**
 
 • Select emojis to record mood
 
@@ -49,7 +54,8 @@ The app works offline, saves all user preferences, and runs smoothly across devi
     
     2.Calendar View
 
-💧** Hydration Reminder**
+
+💧**Hydration Reminder**
 
 • Smart water-drinking notifications
 
@@ -59,6 +65,7 @@ The app works offline, saves all user preferences, and runs smoothly across devi
 
 • Uses Android Notification System
 
+
 📊 **Mood Trend Chart**
 
 • Weekly mood visualization
@@ -66,6 +73,7 @@ The app works offline, saves all user preferences, and runs smoothly across devi
 • Powered by MPAndroidChart
 
 • Helps users understand emotional patterns
+
 
 🌗 **Additional Features**
 
@@ -78,6 +86,8 @@ The app works offline, saves all user preferences, and runs smoothly across devi
 • Works on phones and tablets
 
 • Supports portrait & landscape modes
+
+
 
 🧩 **App Architecture**
 
@@ -92,6 +102,7 @@ The app works offline, saves all user preferences, and runs smoothly across devi
 5.SharedPreferences for data storage
 
 6.AlarmManager / WorkManager for background tasks
+
 
  🛠 **Technologies Used**
 
@@ -108,12 +119,15 @@ The app works offline, saves all user preferences, and runs smoothly across devi
 | Others            | Explicit & Implicit Intents    |
 
 
+
 🔧 **Installation**
 
 git clone https://github.com/your-username/wellness-tracker.git
 Open project in Android Studio
 Let Gradle sync
 Run the app on emulator or physical device
+
+
 
 🚀 **Future Enhancements**
 
@@ -124,6 +138,8 @@ Run the app on emulator or physical device
 • Custom themes
 
 • Weekly wellness summary reports
+
+
 
 🖼**screenshots**
 
