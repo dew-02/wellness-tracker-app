@@ -79,5 +79,5 @@ Run the app on emulator or physical device
 • More reminder types
 • Custom themes
 • Weekly wellness summary reports
-<img width="1080" height="2400" alt="Screenshot_20260103_111106" src="https://github.com/user-attachments/assets/b35b7d04-e22b-4cd8-bd4e-143617d4542f" />
+<img width="100" height="150" alt="Screenshot_20260103_111106" src="https://github.com/user-attachments/assets/b35b7d04-e22b-4cd8-bd4e-143617d4542f" />
 
