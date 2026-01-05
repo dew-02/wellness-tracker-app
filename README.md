@@ -1,130 +1,81 @@
-# wellness-tracker-app
-Wellness Tracker is an Android app built with Kotlin to help users manage daily health routines. Features include habit tracking, mood journaling with emoji selection, hydration reminders, and mood trend charts for visualizing weekly patterns, all in a clean, user-friendly interface.
-📱 Wellness Tracker – Android Mobile Application
-Daily Habits • Mood Tracking • Hydration Reminders • Wellness Insights
-🎓 Academic Notice
 
-This mobile application was developed as part of the Mobile Application Development – Self Assignment 3 module.
+📱 Wellness Tracker – Android Mobile Application
+A simple, clean, and effective app to build healthy daily routines.
+
+🎓 Academic Notice
+This project was developed for the Mobile Application Development – Self Assignment 3 module.
 
 🌟 Overview
+Wellness Tracker is a Kotlin-based Android app that helps users:
+• Build positive daily habits
+• Track emotional well-being
+• Maintain hydration through reminders
+• Understand weekly mood patterns
+• Stay consistent with a clean and calm UI
+The app works offline, saves all user preferences, and runs smoothly across devices.
 
-Wellness Tracker is an Android mobile application designed to help users manage their daily wellness routines through simple, effective, and user-friendly tools.
-Built using Kotlin in Android Studio, the app encourages users to develop positive habits, monitor emotional well-being, and stay hydrated through smart reminders.
-
-Its primary goal is to support users in building consistent self-care practices with a clean, calm, and intuitive interface.
-
-✨ Key Features
+✨ Features
 🗓️ Daily Habit Tracker
+• Add, edit, and delete habits
+• Daily progress display
+• Habit-based reminders using:
+       -AlarmManager
+       -WorkManager
 
-Add, edit, and delete daily habits
-
-Track habits like drinking water, meditation, exercise, study time, etc.
-
-Daily progress indicators
-
-Habit-based reminders using AlarmManager / WorkManager
-
-😊 Mood Journal with Emoji Selector
-
-Log daily moods using emojis
-
-Auto-recorded date & time
-
-View previous entries in:
-
-List View
-
-Calendar View
+😊 Mood Journal
+• Select emojis to record mood
+• Auto-save date and time
+• View past moods in:
+    -List View
+    -Calendar View
 
 💧 Hydration Reminder
-
-Smart water-drinking notifications
-
-Background reminder system
-
-Customizable reminder intervals
-
-Uses Android Notification System
+• Smart water-drinking notifications
+• Background reminders
+• Custom reminder intervals
+• Uses Android Notification System
 
 📊 Mood Trend Chart
+• Weekly mood visualization
+• Powered by MPAndroidChart
+• Helps users understand emotional patterns
 
-Weekly mood visualization
-
-Built using MPAndroidChart
-
-Helps users identify emotional patterns
-
-🌗 Advanced App Capabilities
-
-Light & Dark Mode support
-
-Smooth navigation with Activities & Fragments
-
-Data persists across app restarts
-
-Lightweight local storage using SharedPreferences
-
-Works on both phones and tablets (responsive UI)
-
-Supports both portrait & landscape modes
+🌗 Additional Features
+• Light & Dark Mode
+• Smooth navigation with Activities & Fragments
+• Persistent data using SharedPreferences
+• Works on phones and tablets
+• Supports portrait & landscape modes
 
 🧩 App Architecture
-
-Activities for core screens
-
-Fragments for modular UI
-
-Intents (Explicit & Implicit) for navigation & sharing
-
-SharedPreferences for data storage
-
-AlarmManager / WorkManager for scheduled tasks
+1.Activities for main screens
+2.Fragments for feature modules
+3.Explicit Intents for screen navigation
+4.Implicit Intents for sharing/export
+5.SharedPreferences for data storage
+6.AlarmManager / WorkManager for background tasks
 
 🛠 Technologies Used
-Category	Technology
-Programming Language	Kotlin
-IDE	Android Studio
-UI	XML, Material Design
-Local Storage	SharedPreferences
-Charts Library	MPAndroidChart
-Background Tasks	AlarmManager, WorkManager
-Notifications	Android Notification System
-Architecture	Activity + Fragment Structure
-Other	Explicit/Implicit Intents
-🖼️ Screenshots
+Category	           Technology
+Language	           Kotlin
+IDE	                    Android Studio
+UI	                    XML + Material Design
+Local Storage	        SharedPreferences
+Charts	                MPAndroidChart
+Background Tasks	    AlarmManager, WorkManager
+Notifications	        Android Notification System
+Architecture	        Activity + Fragment
+Others	                Explicit & Implicit Intents
 
-(Add your screenshots here)
 
-/screenshots  
-    ├── home_screen.png  
-    ├── habit_tracker.png  
-    ├── mood_journal.png  
-    ├── hydration_reminder.png  
-    ├── mood_chart.png  
-
-🔧 How to Install & Run
-
-Clone the repository
-
+🔧 Installation
 git clone https://github.com/your-username/wellness-tracker.git
-
-
-Open in Android Studio
-
-Let Gradle sync automatically
-
-Run the app on:
-
-Android emulator
-
-Physical Android device
+Open project in Android Studio
+Let Gradle sync
+Run the app on emulator or physical device
 
 🚀 Future Enhancements
-
-Cloud sync with Firebase
-
-Customizable themes
-
-Habit statistics dashboard
-
-Weekly wellness summaries
+• Firebase sync
+• More reminder types
+• Custom themes
+• Weekly wellness summary reports
